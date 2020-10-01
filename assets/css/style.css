@@ -1,0 +1,50 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header{
+    background-image: url(../img/bg_hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 25rem;
+    padding-bottom: 10rem;
+}
+
+.letra-serif{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+
+.navbar{
+    background-color: #eec6c1;
+}
+
+.navbar-dark .navbar-brand{
+    color: #915629;
+}
+
+.navbar-dark .navbar-toggler{
+   color:#915629 ;
+   border-color: #915629;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #4a502d;  
+}
+
+.fondo-texto-verde{
+  background-color: #4a502d;  
+  max-width: 25rem; 
+  margin-top: 13rem;
+}
+
+.fondo-texto-rosa{
+    background-color:white; 
+    color: #915629;
+    max-width: 8rem; 
+    margin-bottom: -13rem;
+    margin-top: 13rem;
+  }
