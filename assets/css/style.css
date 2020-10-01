@@ -14,8 +14,6 @@ header{
 .letra-serif{
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    letter-spacing: 3px;
-
 }
 
 .navbar{
@@ -35,16 +33,46 @@ header{
     color: #4a502d;  
 }
 
-.fondo-texto-verde{
-  background-color: #4a502d;  
+.fondo-texto-rosado{
+  background-color: #eec6c1; 
+  color: #4a502d; 
   max-width: 25rem; 
   margin-top: 13rem;
 }
 
-.fondo-texto-rosa{
+.fondo-texto-blanco{
     background-color:white; 
     color: #915629;
     max-width: 8rem; 
     margin-bottom: -13rem;
     margin-top: 13rem;
   }
+
+  h2{
+    color: #4a502d;  
+    font-size: 3rem; 
+  }
+
+  .color-cafe{
+    color: #915629;
+  }
+
+  p{
+    color: #4a502d;   
+  }
+
+  .borde-top{
+    border-bottom: 2px solid #eec6c1;
+   max-width: 13rem;
+}
+
+.fondo-texto-rosa{
+    background-color: #eec6c1; 
+    color: #915629;
+    max-width: 8rem;
+}
+
+.sobre-mi{
+    background-color: #f6ede6;
+    padding: 1rem;
+}
