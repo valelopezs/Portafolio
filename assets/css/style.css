@@ -57,6 +57,10 @@ header{
     color: #915629;
   }
 
+  .color-rosa{
+      color: #eec6c1;
+  }
+
   p{
     color: #4a502d;   
   }
@@ -72,7 +76,37 @@ header{
     max-width: 8rem;
 }
 
+.fondo-tx-verde{
+    background-color: #4a502d; 
+    max-width: 18rem;
+    height: 4rem;
+}
+
 .sobre-mi{
     background-color: #f6ede6;
-    padding: 1rem;
+}
+
+.container-fluid{
+    background-color: #c6c8b8;  
+}
+
+
+.color-verde{
+    color: #4a502d;
+}
+
+.card{
+    max-width: 18rem;
+    height: 10rem;
+    background-color:#c6c8b8;
+    border: none;
+}
+
+.card img{
+    max-width: 10rem;
+}
+
+.borde-top2{
+    border-bottom: 5px solid #eec6c1;
+   max-width: 18rem;
 }
