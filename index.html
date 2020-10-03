@@ -22,7 +22,8 @@
   </head>
 
   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+    <!--NavBar-->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand letra-serif" href="#">Valentina |</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mí</a>
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+              <a class="nav-link" href="#trabajos">Trabajos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
@@ -45,6 +46,8 @@
         </div>
       </nav>
 
+
+<!--Header-->
       <header class="text-light text-center pt-5">
       <div class="container">
         <div class="fondo-texto-blanco text-center mx-auto">
@@ -56,79 +59,295 @@
       </div>
     </header>
 
-    <section class="container text-center my-5 py-3 px-5 sobre-mi d-none d-md-block">
+<!--Sobre Mi-->
+    <section id="sobre-mi" class="container text-center my-5 py-5 px-5 sobre-mi d-none d-md-block">
         <h2 class="letra-serif my-4 borde-top text-center mx-auto">Sobre mí</h2>
         <p>Me llamo Valentina López, soy diseñadora industrial.</p> 
         <p> Me considero apasionada del diseño y de como se puede aplicar en distintas áreas. Busco aplicar y compartir mis conocimientos de manera proactiva, creativa y analítica. Trabajo metódicamente con un pensamiento crítico y estratégico, tratando constantemente de mejorar y aprender.</p>
   
         <div class="row">
           <div class="col-md-6 text-center">
-            <div class="fondo-texto-rosa mx-auto">
-              <h4 class="my-3 color-cafe">Diseño</h4>
-            </div>
-            <p class="my-3 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="fondo-texto-rosa mx-auto">
+                <h4 class="my-3 color-cafe">Diseño</h4>
+              </div>
+              <p class="my-3 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
           <div class="col-md-6 text-center">
-            <div class="fondo-texto-rosa mx-auto">
-              <h4 class="my-3 color-cafe">Hobbies</h4>
+              <div class="fondo-texto-rosa mx-auto">
+                <h4 class="my-3 color-cafe">Hobbies</h4>
+              </div>
+              <p class="my-3 font-weight-light">Tengo muchos hobbies, me encanta usar mi tiempo libre para crear con las manos. Me encanta dibujar, hacer lettering, coser, bordar y customizar distintas cosas. El papel es uno de mis materiales favoritos para experimentar. </p>
             </div>
-            <p class="my-3 font-weight-light">Tengo muchos hobbies, me encanta usar mi tiempo libre para crear con las manos. Me encanta dibujar, hacer lettering, coser, bordar y customizar distintas cosas. El papel es uno de mis materiales favoritos para experimentar. </p>
-          </div>
         </div>
     </section>
 
-    <section class="container-fluid text-center py-1">
+ <!--Mi Experiencia-->
+    <section id="experiencia" class="container-fluid text-center py-4">
       <div class="mx-auto mt-4">
-        <h2 class="letra-serif color-verde borde-top2 mx-auto">Experiencia</h2>
+        <h2 class="letra-serif color-verde borde-top2 mx-auto">Mi experiencia</h2>
       </div>
+      <div class="container">
+          <div class="row px-5 my-5">
+            <div class="col-md-3 text-center">
+              <div class="card p-1 my-1">
+                <img src="assets/img/logo4.png" class="card-img-top mx-auto p-2" alt="levi's">
+                <div class="card-body">
+                  <h6 class="font-weight-bold color-verde">Diseñadora</h6>
+                  <p class="font-weight-light">2018</p>
+                </div>
+              </div>
+            </div>
 
-      <div class="row px-5 my-5">
-        <div class="col-md-3 text-center">
-          <div class="card p-3 my-1">
-            <img src="assets/img/logo4.png" class="card-img-top mx-auto p-2" alt="levi's">
-            <div class="card-body">
-              <h6 class="font-weight-bold color-verde">Diseñadora</h6>
-              <p class="font-weight-light">2018</p>
+            <div class="col-md-3 text-center">
+              <div class="card p-1 my-1">
+                <img src="assets/img/logo3.png" class="card-img-top mx-auto p-2" alt="sparta">
+                <div class="card-body">
+                  <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
+                  <p class="font-weight-light">2018-2020</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mx-auto col-12">
+              <div class="card p-1 my-1">
+                <img src="assets/img/logo2.png" class="card-img-top mx-auto p-2" alt="new balance">
+                <div class="card-body">
+                  <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
+                  <p class="font-weight-light">2018-2020</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <div class="card p-1 my-1">
+                <img src="assets/img/logo1.png" class="card-img-top mx-auto p-2" alt="trek">
+                <div class="card-body">
+                  <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
+                  <p class="font-weight-light">2018-2020</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3 text-center">
-          <div class="card p-3 my-1">
-            <img src="assets/img/logo3.png" class="card-img-top mx-auto p-2" alt="sparta">
-            <div class="card-body">
-              <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
-              <p class="font-weight-light">2018-2020</p>
+    </section>
+
+<!--Mis últimos trabajos-->
+    <section id="trabajos" class="container-fluid  sobre-mi py-5">
+        <h2 class=" letra-serif color-cafe text-center mx-auto pt-4 borde-top2">Mis trabajos</h2>
+  <div class="container mx-auto mt-5">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+              <div class="card">
+                <img src="assets/img/meet_coffee.png" class="card-img-top mx-auto" alt="meet&coffee">
+                <div class="card-body">
+                  <h5 class="card-title color-verde">Meet & Coffee</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                  <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#meet-coffee">Ver más</a>
+                </div>
+              </div>
             </div>
-          </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+              <div class="card">
+                <img src="assets/img/suricata.png" class="card-img-top" alt="suricata">
+                <div class="card-body">
+                  <h5 class="card-title color-verde">Suricata</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                  <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#suricata">Ver más</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+              <div class="card">
+                <img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana page">
+                <div class="card-body">
+                  <h5 class="card-title color-verde">Iguana Page</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+                  <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#iguana">Ver más</a>
+                </div>
+              </div>
+            </div>
         </div>
 
-        <div class="col-md-3 mx-auto col-12">
-          <div class="card p-3 my-1">
-            <img src="assets/img/logo2.png" class="card-img-top mx-auto p-2" alt="new balance">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+          <div class="card">
+            <img src="assets/img/cuppon.png" class="card-img-top mx-auto" alt="cuppon">
             <div class="card-body">
-              <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
-              <p class="font-weight-light">2018-2020</p>
+              <h5 class="card-title color-verde">Cuppon</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+              <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#cuppon">Ver más</a>
             </div>
           </div>
-        </div>
-
-        <div class="col-md-3 text-center">
-          <div class="card p-3 my-1">
-            <img src="assets/img/logo1.png" class="card-img-top mx-auto p-2" alt="trek">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+          <div class="card">
+            <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
             <div class="card-body">
-              <h6 class="font-weight-bold color-verde">Coordinador Visual Merchandising</h6>
-              <p class="font-weight-light">2018-2020</p>
+              <h5 class="card-title color-verde">Ricomida</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+              <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#ricomida">Ver más</a>
             </div>
           </div>
-        </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4"> 
+          <div class="card">
+            <img src="assets/img/olivia-ros.png" class="card-img-top" alt="olivia">
+            <div class="card-body">
+              <h5 class="card-title color-verde">Olivia Ros</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
+              <a href="#" class="btn btn-light mr-4" data-toggle="modal" data-target="#olivia">Ver más</a>
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+  
+          <!-- Modal Meet & Coffee -->
+            <div class="modal fade" id="meet-coffee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Meet & Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/meet_coffee.png" class="img-fluid my-3" alt="meet&coffee">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Modal Suricata -->
+            <div class="modal fade" id="suricata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suricata</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/suricata.png" class="img-fluid my-3" alt="suricata">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Modal Iguana Page -->
+            <div class="modal fade" id="iguana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/iguana_page.png" class="img-fluid my-3" alt="iguana">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      </div>
+             <!-- Modal Cuppon-->
+             <div class="modal fade" id="cuppon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cuppon</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/cuppon.png" class="img-fluid my-3" alt="cuppon">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- Modal Ricomida-->
+             <div class="modal fade" id="ricomida" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ricomida</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/ricomida.png" class="img-fluid my-3" alt="ricomida">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal Olivia Ros-->
+            <div class="modal fade" id="olivia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Olivia Ros</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="assets/img/olivia-ros.png" class="img-fluid my-3" alt="olivia">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus facere error quasi quia corrupti quae non quidem eum sint dolore accusantium illo, reprehenderit numquam ex provident in repudiandae architecto?</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    </section>
+<!--Contacto-->
+    <section class="container">
 
     </section>
 
+
+<!--Footer-->
+<footer class="fondo-verde text-center text-light p-3">
+  <h4 class="letra-serif color-rosa">Valentina</h4>
+</footer>
 
       <!--JQuery 3.5.1-->
-      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
       <!--Popper JS 1.16.1-->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
