@@ -141,3 +141,12 @@ header{
     width: 18rem;
 }
 }
+
+.footer-nombre{
+    letter-spacing: 0.4rem;
+}
+
+.link{
+color: #ffffff;
+text-decoration: none;
+}
