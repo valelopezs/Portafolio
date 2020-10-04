@@ -46,27 +46,27 @@ header{
     max-width: 8rem; 
     margin-bottom: -13rem;
     margin-top: 13rem;
-  }
+}
 
-  h2{
+h2{
     color: #4a502d;  
     font-size: 3rem; 
-  }
+}
 
-  .color-cafe{
+.color-cafe{
     color: #915629;
-  }
+}
 
-  .color-rosa{
+.color-rosa{
       color: #eec6c1;
-  }
+}
 
-  p{
+p{
     color: #4a502d;   
-  }
+}
 
-  .borde-top{
-    border-bottom: 2px solid #eec6c1;
+.borde-top{
+    border-bottom: 3px solid #eec6c1;
    max-width: 13rem;
 }
 
@@ -84,20 +84,14 @@ header{
     background-color: #f6ede6;
 }
 
-#experiencia.container-fluid{
-    background-color: #c6c8b8;  
-}
-
-
 .color-verde{
     color: #4a502d;
 }
 
 #experiencia .card{
     max-width: 18rem;
-    height: 10rem;
-    background-color:#c6c8b8;
-    border: none;
+    height: 15rem;
+    border-color: #f6ede6;
 }
 
 #experiencia .card img{
@@ -105,7 +99,7 @@ header{
 }
 
 .borde-top2{
-    border-bottom: 5px solid #eec6c1;
+    border-bottom: 3px solid #eec6c1;
    max-width: 22rem;
 }
 
@@ -124,7 +118,6 @@ header{
     border-color: #eec6c1;
 }
 
-
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { #trabajos .card{
     width: 18rem;
@@ -136,6 +129,7 @@ header{
     width: 18rem;
 }
 }
+
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { #trabajos .card{
     width: 18rem;
@@ -149,4 +143,22 @@ header{
 .link{
 color: #ffffff;
 text-decoration: none;
+}
+
+.tooltip{
+    color: #eec6c1;
+}
+
+a.link{
+    color: #ffffff;
+}
+
+.borde-top3{
+    border-bottom: 3px solid #eec6c1;
+   max-width: 18rem;
+}
+
+.borde-top4{
+    border-bottom: 3px solid #eec6c1;
+   max-width: 13rem;
 }
